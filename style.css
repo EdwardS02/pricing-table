@@ -5,8 +5,9 @@ body {
 .pricing-container {
     display: flex;
     height: 100vh;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 3rem;
 }
 
 .pricing-plan {
@@ -29,4 +30,18 @@ body {
 .plan-features > li {
     list-style: none;
     margin-bottom: 1rem;
+}
+
+.plan-button {
+    background-color: rgb(255, 106, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1350px) {
+    .pricing-container {
+        flex-direction: column;
+    }
 }
