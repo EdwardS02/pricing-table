@@ -13,4 +13,20 @@ body {
     background-color: rgb(235, 235, 235);
     border-radius: 5px;
     text-align: center;
+    padding: 2rem;
+}
+
+.plan-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.plan-price {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.plan-features > li {
+    list-style: none;
+    margin-bottom: 1rem;
 }
